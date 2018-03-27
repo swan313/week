@@ -1,5 +1,5 @@
 # 可以直接在此地址查看效果
-swan313.github.com
+http://swan313.github.io/week-1/
 
 
 使用说明
