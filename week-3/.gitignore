@@ -1,0 +1,11 @@
+
+# Dependency directory
+node_modules/
+#.DS_Store
+*.DS_Store
+# Compiled
+build/
+# Log
+*.log
+*.zip
+*.tar.gz

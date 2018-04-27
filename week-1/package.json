@@ -1,25 +1,23 @@
 {
-  "name": "week-1",
+  "name": "week-01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "jasmine-core": "^3.1.0",
-    "jquery": "^3.3.1",
     "karma": "^2.0.0",
-    "karma-babel-preprocessor": "^7.0.0",
-    "karma-coverage": "^1.1.1",
+    "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.1.1",
-    "karma-phantomjs-launcher": "^1.0.4"
-  },
-  "dependencies": {}
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs": "^2.1.7"
+  }
 }
