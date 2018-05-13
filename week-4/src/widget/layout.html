@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+    <title>{% block title %}My Site{% endblock %}</title>
+    <link rel="dns-prefetch" href="//cdn.bootcss.com">
+    <script src="https://cdn.bootcss.com/lazyload/2.0.3/lazyload-min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.17.1/axios.js"></script>
+    <script src="https://cdn.bootcss.com/x-tag/1.5.11/x-tag-core.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.js"></script>
+    <script src="https://cdn.bootcss.com/localforage/1.7.1/localforage.js"></script>
+    {% block styles %}
+
+    {% endblock %}
+</head>
+<body>
+<a href="/index/star">星星点赞</a>
+<a href="/index/praise">大拇指点赞</a>
+<div id="changeContent">
+    {% block content %}{% endblock %}
+</div>
+{% block script %}{% endblock %}
+<script>
+  $(document).pjax('a', '#changeContent');
+  localforage.getItem('advertisement',function (err,val) {
+    if (val == null){
+      //1.请求 2.存到indexdb
+      $.ajax({
+        url:'/index/adv',
+        success:function (data) {
+          localforage.setItem('advertisement',data);
+          $('body').prepend(data);
+        }
+      });
+
+    }else {
+      $('body').prepend(val);
+    }
+  })
+</script>
+</body>
+</html>
