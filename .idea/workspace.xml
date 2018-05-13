@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b792f97a-15a9-4395-bfd0-7fc926eee691" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week-3/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week-4/src/public/scripts/star.es6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week-4/src/views/star.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week-4/src/widget/star.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gitweek.iml" afterPath="$PROJECT_DIR$/.idea/gitweek.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week-4/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week-3/src/controller/initController.es6" afterPath="$PROJECT_DIR$/week-3/src/controller/initController.es6" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +16,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week-4/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/week-03/index.html" />
         <option value="$PROJECT_DIR$/week-03/public/scripts/tag.es.js" />
         <option value="$PROJECT_DIR$/week-3/public/scripts/tag.es6" />
         <option value="$PROJECT_DIR$/week-3/views/index.html" />
@@ -102,6 +107,7 @@
         <option value="$PROJECT_DIR$/week-4/package.json" />
         <option value="$PROJECT_DIR$/week-4/src/widget/layout.html" />
         <option value="$PROJECT_DIR$/week-4/src/views/index.js" />
+        <option value="$PROJECT_DIR$/week-4/README.md" />
       </list>
     </option>
   </component>
@@ -129,9 +135,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
+    <option name="x" value="519" />
     <option name="y" value="53" />
-    <option name="width" value="1124" />
+    <option name="width" value="735" />
     <option name="height" value="747" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -183,12 +189,6 @@
               <item name="week" type="b2602c69:ProjectViewProjectNode" />
               <item name="week" type="462c0819:PsiDirectoryNode" />
               <item name="week-4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week" type="462c0819:PsiDirectoryNode" />
-              <item name="week-4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,23 +263,23 @@
       <workItem from="1525315244157" duration="1249000" />
       <workItem from="1525577483579" duration="2746000" />
       <workItem from="1526179029130" duration="23000" />
-      <workItem from="1526179391471" duration="12076000" />
+      <workItem from="1526179391471" duration="12357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72377000" />
+    <option name="totallyTimeSpent" value="72658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="53" width="1124" height="747" extended-state="0" />
+    <frame x="519" y="53" width="735" height="747" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20852222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20852222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35749587" sideWeight="0.50643086" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29447854" sideWeight="0.49356914" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29447854" sideWeight="0.49356914" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -296,6 +296,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -306,13 +309,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week-2/public/scripts/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week-2/index.js" />
     <entry file="file://$PROJECT_DIR$/week-2/index.spec.js" />
     <entry file="file://$PROJECT_DIR$/week-2/karma.conf.js">
@@ -684,6 +680,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-4/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
